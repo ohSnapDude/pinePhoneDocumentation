@@ -4,6 +4,8 @@ Greetings! This is a git repository documenting the adventures being had with th
 
 Documentation will be sorted out by OS most likely. It's a work in progress as more stuff is being placed on the phone. Certain things are general enough that they won't be organized by this method and will probably be dumped into the "general" folder.
 
+This repository might also apply to other linux phones as well, in fact probably all of it would work, just keep in mind I'm using a pinephone with the specs listed below.
+
 ## My phone specs
 
 The pinephone is a postmarketOS community edition, containing 3GB memory, Allwinner64 CPU, 32GB storage with some micro SD cards coming in the mail late (thanks amazon >:) )
