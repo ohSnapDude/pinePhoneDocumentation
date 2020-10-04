@@ -12,13 +12,13 @@ The pinephone is a postmarketOS community edition, containing 3GB memory, Allwin
 
 ## Status of becoming a daily driver
 
-Right now I do not have everything needed for my daily use yet. When that time comes the pinehone will replace this iPhone 6S Current tasks are as follows:
+Right now I do not have everything needed for my daily use yet. When that time comes the pinehone will replace this iPhone 6S. Current tasks are as follows:
 
 * ~password manager~ - [compiled qtPass](./postmarketOs/qtpass.md)
 * Music
     * m3u reader - I plan on making this myself
     * ~internet radio~ - firefox
-* ~Video~ - firefox as well. I tried using kodi for this, and even went as far as 
+* ~Video~ - firefox as well. I tried using kodi for this, and even went as far as setting up youtube playback. On the pinephone, performance was subpar compared to watching youtube over firefox so here I am :P One day though... the precious vlc will work on my phone somehow.
 * ~tox~ [Compiled qTox](./postmarketOs/qtox.md)
 * contacts - doing more studying on this. Might create a script that converts vcf to the sqlite3 database gnome-contacts is using.
 * ~weather~ - weather.gov & gnome-weather
