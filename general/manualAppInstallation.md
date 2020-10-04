@@ -10,7 +10,7 @@ After building an application from scratch, it's natrual to need a desktop icon 
 
 If you need examples to go off of, I'll be pulling some examples from a couple of previous builds - [qtPass](../postmarketOs/qtpass.md) and [qTox](../postmarketOs/qtox.md).
 
-If jumped from one of those or another page from this repo talking about building something, you will probably need to set the permissions of the app to yourself so you can move it around. You can do this by running:
+If you jumped from one of those or another page from this repo talking about building something, you will probably need to set the permissions of the app to yourself so you can move it around. You can do this by running:
 
 `sudo chown user ./path/to/Executable`
 
@@ -76,6 +76,6 @@ After this just replace the path for the icon and `phosh` will automatically upd
 
 ## Troubleshooting
 
-* If your application is inside `/home/user/.local/bin` or was added to a directory that `$PATH` looks at, you don't need to hard link the app. for example my config just has `qtox` instead of `/home/user/.local/bin/qtox`. Otherwise, you need to hard-link the path just like the example on the end of the previous sentence.
+* If your application is inside `/home/user/.local/bin` or was added to a directory that `$PATH` looks at, you don't need to hard link the app. For example my config just has `qtox` instead of `/home/user/.local/bin/qtox`. Otherwise, you need to hard-link the path just like the example on the end of the previous sentence.
 * For both images and excutables, the tilde `~` or any directory shortcuts is not supported, therefore like the previous point mentioned, these need to be hard-linked.
 * Remember to give yourself proper ownership and permissions for the desktop file to be editable. (see top of this page for example usage of `chown`)
