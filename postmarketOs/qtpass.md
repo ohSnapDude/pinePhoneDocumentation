@@ -16,6 +16,12 @@ N/A so far, check [linuxOnMobile's](https://linmob.net/2020/07/27/pinephone-dail
 
 These instructions will probbaly need docker, check out [this page](./dockerSetup.md) for more information.
 
+## pinentry-gnome
+
+Install this into postmarket OS before going inside your docker container. This will make a GUI prompt appear whenever gpg requires a passcode:
+
+`sudo apk add pinentry-gnome`
+
 ## Build
 
 Done with docker setup? Let's go!
