@@ -20,10 +20,10 @@ Right now I do not have everything needed for my daily use yet. When that time c
     * ~internet radio~ - firefox
 * ~Video~ - firefox as well. I tried using kodi for this, and even went as far as setting up youtube playback. On the pinephone, performance was subpar compared to watching youtube over firefox so here I am :P One day though... the precious vlc will work on my phone somehow.
 * ~tox~ [Compiled qTox](./postmarketOs/qtox.md)
-* contacts - doing more studying on this. Might create a script that converts vcf to the sqlite3 database gnome-contacts is using.
+* contacts - doing more studying on this. ~Might create a script that converts vcf to the sqlite3 database gnome-contacts is using.~ I heard from linuxOnMobile you can port contacts from the `evolution` email client; so I'll give that a try.
 * ~weather~ - weather.gov & gnome-weather
 * ~mail client~ - geary
-* totp (one time passcodes) - I already have a script that can be modified to use `zenity`
+* ~totp~ (one time passcodes) - ~I already have a script that can be modified to use `zenity`~ There's something better out there [that qtPass & pass are compatible with](https://github.com/tadfisher/pass-otp): `pass-otp` (just install that package on apk) convert your keys to [This format](https://github.com/google/google-authenticator/wiki/Key-Uri-Format), then in qtPass, go to preferences -> settings -> "Use pass-otp extension". Then set your programs to the "Use pass" radio button. On the pinephone I also have auto-copy on so I don't need to use the terminal keyboard and simulate CTRL-C
 * ~map~ - gnome-maps. This doesn't meet all conveniences, preferrably I'd like something that could replace apple maps that could read out directions as I'm driving.
 * ~calendar~ - using gnome-calendar
 
