@@ -2,7 +2,7 @@
 
 Oddly enough the inner workings of this application deserve an introduction before everything else:
 
-* [pass](https://password-store.com) - an epic password manager that uses the unix philosophy to store your secret stuff.
+* [pass](https://passwordstore.org) - an epic password manager that uses the unix philosophy to store your secret stuff.
 * GPG - a swiss army knife for encrypting literally anything.
 * git - the backend behind github (this website). It keeps track of changes you make in code or anything else. Used with pass to sync your changes across computers
 
